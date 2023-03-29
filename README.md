@@ -43,4 +43,6 @@ $ docker ps
 ```
 ![image](https://user-images.githubusercontent.com/126319802/228530009-e273d00a-b1d7-4706-bb01-51c054678b98.png)
 
-11. 
+11. Stop and remove all containers with following commands:
+```console
+$ docker stop 
