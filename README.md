@@ -50,7 +50,7 @@ $ docker stop nginx_container
 $ dokcker stop nginx_container_2
 $ docker container prune
 ```
-12. Remove the network with following command:
+12. Remove the `my_network` with following command:
 ```console
 $ docker network rm my_network
 ```
