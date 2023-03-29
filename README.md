@@ -10,6 +10,7 @@ CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS       
 c486b9ca0a7f   nginx     "/docker-entrypoint.…"   11 seconds ago   Up 8 seconds   80/tcp    nginx_container
 ```
 3.  To see the running container with `my_network` run following command:
+```console
 $ docker ps --filter network=my_network
 CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS          PORTS     NAMES
 c486b9ca0a7f   nginx     "/docker-entrypoint.…"   22 minutes ago   Up 22 minutes   80/tcp    nginx_container
