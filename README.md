@@ -16,3 +16,9 @@ c486b9ca0a7f   nginx     "/docker-entrypoint.…"   22 minutes ago   Up 22 minut
 ```
 4. the container is accessable on `localhost:8080`
 ![image](https://user-images.githubusercontent.com/126319802/228525590-da2e00ae-57b9-41d2-a053-4c42ec5cc172.png)
+5. stop and remove `nginx_container` with following comamnds:
+```console
+$ docker stop nginx_container
+$ docker rm nginx_container
+```
+6. 
