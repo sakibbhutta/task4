@@ -45,4 +45,9 @@ $ docker ps
 
 11. Stop and remove all containers with following commands:
 ```console
-$ docker stop 
+$ docker stop httpd_container
+$ docker stop nginx_container
+$ dokcker stop nginx_container_2
+$ docker container prune
+```
+12. 
